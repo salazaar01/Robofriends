@@ -1,0 +1,61 @@
+[0.044s] Invoking command in '/home/robousr/ROS2Dev/Robofriends/build/examen_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/robousr/ROS2Dev/Robofriends/examen_description -DCMAKE_INSTALL_PREFIX=/home/robousr/ROS2Dev/Robofriends/install/examen_description
+[0.293s] -- The C compiler identification is GNU 11.4.0
+[0.432s] -- The CXX compiler identification is GNU 11.4.0
+[0.456s] -- Detecting C compiler ABI info
+[0.599s] -- Detecting C compiler ABI info - done
+[0.607s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.609s] -- Detecting C compile features
+[0.611s] -- Detecting C compile features - done
+[0.619s] -- Detecting CXX compiler ABI info
+[0.822s] -- Detecting CXX compiler ABI info - done
+[0.832s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.832s] -- Detecting CXX compile features
+[0.833s] -- Detecting CXX compile features - done
+[0.862s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.802s] -- Found Python3: /home/robousr/.pyenv/shims/python3 (found version "3.10.12") found components: Interpreter 
+[2.312s] -- Configuring done
+[2.319s] -- Generating done
+[2.321s] -- Build files have been written to: /home/robousr/ROS2Dev/Robofriends/build/examen_description
+[2.333s] Invoked command in '/home/robousr/ROS2Dev/Robofriends/build/examen_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/robousr/ROS2Dev/Robofriends/examen_description -DCMAKE_INSTALL_PREFIX=/home/robousr/ROS2Dev/Robofriends/install/examen_description
+[2.335s] Invoking command in '/home/robousr/ROS2Dev/Robofriends/build/examen_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/robousr/ROS2Dev/Robofriends/build/examen_description -- -j2 -l2
+[2.432s] Invoked command in '/home/robousr/ROS2Dev/Robofriends/build/examen_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/robousr/ROS2Dev/Robofriends/build/examen_description -- -j2 -l2
+[2.519s] Invoking command in '/home/robousr/ROS2Dev/Robofriends/build/examen_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/robousr/ROS2Dev/Robofriends/build/examen_description
+[2.531s] -- Install configuration: ""
+[2.532s] -- Installing: /home/robousr/ROS2Dev/Robofriends/install/examen_description/share/examen_description//urdf
+[2.532s] -- Installing: /home/robousr/ROS2Dev/Robofriends/install/examen_description/share/examen_description//urdf/scara_trajectory_controller.xacro
+[2.535s] -- Installing: /home/robousr/ROS2Dev/Robofriends/install/examen_description/share/examen_description//urdf/scara_urdf.xacro
+[2.535s] -- Installing: /home/robousr/ROS2Dev/Robofriends/install/examen_description/share/examen_description//urdf/scara_simple_controller.xacro
+[2.535s] -- Installing: /home/robousr/ROS2Dev/Robofriends/install/examen_description/share/examen_description//urdf/sonar_sensor.xacro
+[2.535s] -- Installing: /home/robousr/ROS2Dev/Robofriends/install/examen_description/share/examen_description//urdf/lidar_sensor.xacro
+[2.535s] -- Installing: /home/robousr/ROS2Dev/Robofriends/install/examen_description/share/examen_description//urdf/scara_gz_properties.xacro
+[2.535s] -- Installing: /home/robousr/ROS2Dev/Robofriends/install/examen_description/share/examen_description//urdf/trajectory_controller.xacro
+[2.536s] -- Installing: /home/robousr/ROS2Dev/Robofriends/install/examen_description/share/examen_description//urdf/position_controller.xacro
+[2.536s] -- Installing: /home/robousr/ROS2Dev/Robofriends/install/examen_description/share/examen_description//urdf/camara_sensor.xacro
+[2.536s] -- Installing: /home/robousr/ROS2Dev/Robofriends/install/examen_description/share/examen_description//urdf/scara_position_controller.xacro
+[2.536s] -- Installing: /home/robousr/ROS2Dev/Robofriends/install/examen_description/share/examen_description//urdf/scara_basic_position_controller.xacro
+[2.536s] -- Installing: /home/robousr/ROS2Dev/Robofriends/install/examen_description/share/examen_description//urdf/scara.urdf
+[2.537s] -- Installing: /home/robousr/ROS2Dev/Robofriends/install/examen_description/share/examen_description//urdf/imu_sensor.xacro
+[2.537s] -- Installing: /home/robousr/ROS2Dev/Robofriends/install/examen_description/share/examen_description//launch
+[2.537s] -- Installing: /home/robousr/ROS2Dev/Robofriends/install/examen_description/share/examen_description//launch/scara_display.launch.xml
+[2.537s] -- Installing: /home/robousr/ROS2Dev/Robofriends/install/examen_description/share/examen_description//rviz
+[2.538s] -- Installing: /home/robousr/ROS2Dev/Robofriends/install/examen_description/share/examen_description//rviz/scara_rviz.rviz
+[2.538s] -- Installing: /home/robousr/ROS2Dev/Robofriends/install/examen_description/share/examen_description//rviz/urdf.rviz
+[2.538s] -- Installing: /home/robousr/ROS2Dev/Robofriends/install/examen_description/share/examen_description//config
+[2.538s] -- Installing: /home/robousr/ROS2Dev/Robofriends/install/examen_description/share/examen_description//config/scara_trajectory_controller.yaml
+[2.539s] -- Installing: /home/robousr/ROS2Dev/Robofriends/install/examen_description/share/examen_description//config/scara_position_controller.yaml
+[2.539s] -- Installing: /home/robousr/ROS2Dev/Robofriends/install/examen_description/share/ament_index/resource_index/package_run_dependencies/examen_description
+[2.540s] -- Installing: /home/robousr/ROS2Dev/Robofriends/install/examen_description/share/ament_index/resource_index/parent_prefix_path/examen_description
+[2.540s] -- Installing: /home/robousr/ROS2Dev/Robofriends/install/examen_description/share/examen_description/environment/ament_prefix_path.sh
+[2.541s] -- Installing: /home/robousr/ROS2Dev/Robofriends/install/examen_description/share/examen_description/environment/ament_prefix_path.dsv
+[2.541s] -- Installing: /home/robousr/ROS2Dev/Robofriends/install/examen_description/share/examen_description/environment/path.sh
+[2.541s] -- Installing: /home/robousr/ROS2Dev/Robofriends/install/examen_description/share/examen_description/environment/path.dsv
+[2.542s] -- Installing: /home/robousr/ROS2Dev/Robofriends/install/examen_description/share/examen_description/local_setup.bash
+[2.542s] -- Installing: /home/robousr/ROS2Dev/Robofriends/install/examen_description/share/examen_description/local_setup.sh
+[2.543s] -- Installing: /home/robousr/ROS2Dev/Robofriends/install/examen_description/share/examen_description/local_setup.zsh
+[2.543s] -- Installing: /home/robousr/ROS2Dev/Robofriends/install/examen_description/share/examen_description/local_setup.dsv
+[2.543s] -- Installing: /home/robousr/ROS2Dev/Robofriends/install/examen_description/share/examen_description/package.dsv
+[2.544s] -- Installing: /home/robousr/ROS2Dev/Robofriends/install/examen_description/share/ament_index/resource_index/packages/examen_description
+[2.545s] -- Installing: /home/robousr/ROS2Dev/Robofriends/install/examen_description/share/examen_description/cmake/examen_descriptionConfig.cmake
+[2.548s] -- Installing: /home/robousr/ROS2Dev/Robofriends/install/examen_description/share/examen_description/cmake/examen_descriptionConfig-version.cmake
+[2.548s] -- Installing: /home/robousr/ROS2Dev/Robofriends/install/examen_description/share/examen_description/package.xml
+[2.555s] Invoked command in '/home/robousr/ROS2Dev/Robofriends/build/examen_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/robousr/ROS2Dev/Robofriends/build/examen_description
